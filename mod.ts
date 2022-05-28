@@ -1,4 +1,4 @@
-import { render } from "./dep.ts";
+import { render } from "https://deno.land/x/gfm/mod.ts";
 
 const decoder = new TextDecoder("utf-8");
 
