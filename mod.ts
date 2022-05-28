@@ -45,7 +45,7 @@ async function xmd(opt: { filename: string; title: string; rootUrl?: string }) {
           ol.man-decor li.tl {text-align:left}
           ol.man-decor li.tc {text-align:center;letter-spacing:4px}
           ol.man-decor li.tr {text-align:right;float:right}
-          .mp pre { background: #f8f8f8; padding: 2ex; }
+          .mp pre { background: #f8f8f8; padding: 2ex; overflow: auto; }
           .highlight { margin-left: 8ex; }
         </style>
       </head>
